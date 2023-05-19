@@ -1,0 +1,101 @@
+[
+  {
+    "_id": {
+      "$oid": "643c41e2521ea2b15c09045e"
+    },
+    "PatientID": "67890",
+    "Name": "Will  Martin",
+    "DateOfBirth": "23042000",
+    "Gender": "Male",
+    "Address": "north holmes road",
+    "ContactNo": "",
+    "NationalInsurance": "12345456",
+    "EmergencyContactNo": "999999999",
+    "Appointment": {
+      "AppointmentID": "67",
+      "PatientName": "23042000",
+      "DoctorID": "1009",
+      "DoctorName": "Tammy Jones",
+      "Date": "04042023",
+      "Comments": "String"
+    },
+    "Vaccine": {
+      "VaccineID": "2222",
+      "PatientID": "Sam",
+      "Name": "23042000",
+      "Date": "",
+      "Location": "London"
+    },
+    "Prescriptions": {
+      "PrescriptionID": "4567",
+      "MedicationName": "Dolo650",
+      "Dosage": "1",
+      "Frequency": "3",
+      "StartDate": "",
+      "EndDate": ""
+    },
+    "InvoiceID": "",
+    "Amount": "100",
+    "PaymentType": "",
+    "Balance": "",
+    "Discount": "",
+    "Report": "",
+
+    "Room": {
+      "RoomID": "",
+      "RoomType": "",
+      "Status": ""
+    },
+    "Admission": {
+      "AdmissionID": "",
+      "AdmissionDate": "23042012",
+      "DischargeDate": "",
+      "Diagnosis": "",
+      "Comments": ""
+    },
+    "Test": [
+      {
+        "TestID": "67",
+        "PatientID": 8976,
+        "TestName": "COVID",
+        "TestType": "RTPCR",
+        "TestDate": "north holmes road",
+        "TestResult": "",
+        "Comments": "String"
+      }
+    ],
+    "COVID-19": {
+      "PatientID": "Sam",
+      "TestID": "23042000",
+      "TestDate": "",
+      "TestResult": "Positive"
+    },
+
+    "Treatment": [
+      {
+        "TreatmentID": "",
+        "TreatmentName": "",
+        "StartDate": "",
+        "EndDate": "",
+        "Diagnosis": "",
+        "Comments": ""
+      }
+    ],
+    "Ward": {
+      "WardID": "",
+      "NurseID": "",
+      "TreatmentID": "",
+      "RoomID": "",
+      "Block": "",
+      "BlockCode": "F"
+    },
+    "Nurse": {
+      "NurseID": "",
+      "NurseName": "",
+      "Shift": ""
+    }
+  }
+  
+
+
+]
